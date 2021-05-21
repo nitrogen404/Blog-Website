@@ -1,0 +1,17 @@
+<%- include("partials/header") %>
+<h1>Write something Awesome here</h1>
+<form action="/compose" method="POST">
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" name="theTitle" class="form-control">
+        <br>
+        <br>
+        <label>Writeup</label>
+        <textarea name="writeUp" rows="10" cols="70" class="form-control"></textarea>
+        <br>
+        <button type="submit" class="btn btn-primary" name="button">Publish</button>
+    </div>
+        
+</form>
+
+
